@@ -25,7 +25,7 @@
 }
 
 .dark-mode {
-    --bg-color: hsl(224, 15%, 14%);
+    --bg-color: hsl(240, 7%, 6%);
     --text-color: #fdfdfd;
     --shadow-color: rgba(0, 0, 0, .7);
 }
