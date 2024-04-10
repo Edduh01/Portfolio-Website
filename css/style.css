@@ -182,16 +182,17 @@ section {
 
 .btn:hover {
     background: transparent;
-    color: var(--main-color);
+    color: var(--white-color);
     border-color: var(--main-color);
 }
 
 /* =================glow on hover button========== */
 .glow-on-hover {
-    border: none;
+    border: .1rem solid transparent;
+    /* border: none; */
     outline: none;
     color: #fff;
-    /* background: #6b6be5; */
+    background: #6b6be5;
     cursor: pointer;
     position: relative;
     z-index: 0;
@@ -231,8 +232,8 @@ section {
     z-index: -1;
     content: '';
     position: absolute;
-    /* width: 100%; */
-    /* height: 100%; */
+    width: 100%;
+    height: 100%;
     background: #6b6be5;
     left: 0;
     top: 0;
