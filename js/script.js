@@ -1,6 +1,7 @@
 /*========== menu icon navbar ==========*/
 let menuIcon = document.querySelector("#menu-icon");
 let navbar = document.querySelector(".navbar");
+let date = document.querySelector("#date");
 
 menuIcon.onclick = () => {
   menuIcon.classList.toggle("bx-x");
@@ -79,3 +80,6 @@ ScrollReveal().reveal(".home-content h1, .about-img img", { origin: "left" });
 ScrollReveal().reveal(".home-content h3, .home-content p, .about-content", {
   origin: "right",
 });
+
+// set year
+date.innerHTML = new Date().getFullYear();
